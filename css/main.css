@@ -6,14 +6,55 @@ body {
 
 .container {
     width: 1600px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+clearfix {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .header {
+    background-image: url("/img/hero-img.png");
     width: 1600px;
     height: 900px;
-    padding-top: 36px;
-    background-image: url("../img/hero-img.png");
+}
+
+.header__head {
     position: relative;
+}
+
+.header__logo {
+    position: absolute;
+    left: 215px;
+    top: 55px;
+}
+.header__menu-menu{
+    margin-right: 285px;
+}
+.header__menu-menu li {
+    float: right;
+    right: 285px;
+    padding-top: 57px;
+    
+}
+
+.header__menu-menu li a {
+    margin: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    
 }
 
 h1 {
@@ -32,7 +73,7 @@ h1 {
     right: 500px;
 }
 
-.line {
+.header__line {
     width: 86px;
     height: 2px;
     background-color: #ffffff;
@@ -43,7 +84,7 @@ h1 {
     right: 757px;
 }
 
-.lor {
+.header__lor {
     width: 596px;
     height: 50px;
     color: #fffefe;
@@ -55,3 +96,25 @@ h1 {
     top: 455px;
     left: 502px;
 }
+
+.header__logo {
+    align-self: flex-start;
+}
+
+.header__menu-menu li {
+    list-style: none;
+}
+.header__btn input{
+    height: 92px;
+    width: 92px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 762px;
+    left:754px;
+    bottom: 46px;
+    background-color: transparent;
+    background-image: url(/img/right-arrow-circular-button--attribute-as-robin-kylander-from-flaticon-com.png)
+}
+
+
