@@ -1,0 +1,57 @@
+body {
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 1600px;
+}
+
+.header {
+    width: 1600px;
+    height: 900px;
+    padding-top: 36px;
+    background-image: url("../img/hero-img.png");
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    width: 596px;
+    height: 37px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+    text-transform: uppercase;
+    top: 320px;
+    bottom: 543px;
+    left: 504px;
+    right: 500px;
+}
+
+.line {
+    width: 86px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 409px;
+    bottom: 489px;
+    left: 757px;
+    right: 757px;
+}
+
+.lor {
+    width: 596px;
+    height: 50px;
+    color: #fffefe;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    top: 455px;
+    left: 502px;
+}
