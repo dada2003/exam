@@ -1,120 +1,55 @@
-body {
-    max-width: 100%;
-    max-height: 100%;
-    font-family: 'Raleway', sans-serif;
-}
-
-.container {
-    width: 1600px;
-    max-width: 1600px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.container:after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-clearfix {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.header {
-    background-image: url("/img/hero-img.png");
-    width: 1600px;
-    height: 900px;
-}
-
-.header__head {
-    position: relative;
-}
-
-.header__logo {
-    position: absolute;
-    left: 215px;
-    top: 55px;
-}
-.header__menu-menu{
-    margin-right: 285px;
-}
-.header__menu-menu li {
-    float: right;
-    right: 285px;
-    padding-top: 57px;
+    @import'header.css';
+    body {
+        max-width: 100%;
+        max-height: 100%;
+        font-family: 'Raleway', sans-serif;
+    }
     
-}
-
-.header__menu-menu li a {
-    margin: 20px;
-    font-size: 14px;
-    text-decoration: none;
-    color: white;
+    .container {
+        width: 1600px;
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 0 15px 0 15px;
+    }
     
-}
-
-h1 {
-    position: absolute;
-    width: 596px;
-    height: 37px;
-    color: #ffffff;
-    font-family: Raleway;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 60px;
-    text-transform: uppercase;
-    top: 320px;
-    bottom: 543px;
-    left: 504px;
-    right: 500px;
-}
-
-.header__line {
-    width: 86px;
-    height: 2px;
-    background-color: #ffffff;
-    position: absolute;
-    top: 409px;
-    bottom: 489px;
-    left: 757px;
-    right: 757px;
-}
-
-.header__lor {
-    width: 596px;
-    height: 50px;
-    color: #fffefe;
-    font-family: Lato;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 30px;
-    position: absolute;
-    top: 455px;
-    left: 502px;
-}
-
-.header__logo {
-    align-self: flex-start;
-}
-
-.header__menu-menu li {
-    list-style: none;
-}
-.header__btn input{
-    height: 92px;
-    width: 92px;
-    border: 1px solid white;
-    border-radius: 50%;
-    position: absolute;
-    top: 762px;
-    left:754px;
-    bottom: 46px;
-    background-color: transparent;
-    background-image: url(/img/right-arrow-circular-button--attribute-as-robin-kylander-from-flaticon-com.png)
-}
-
-
+    .header__title-wrap {
+        height: 785px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    h1 {
+        width: 696px;
+        height: 37px;
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 60px;
+        text-transform: uppercase;
+        padding-top: 215px;
+    }
+    
+    .header__lor {
+        width: 596px;
+        height: 50px;
+        color: #fffefe;
+        font-family: Lato;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    
+    .header__btn input{
+/*        padding-top: 636px;*/
+        width: 92px;
+        height: 92px;
+        background-color: #ffffff;
+        opacity: 0.5;
+        border: none;
+        border-radius: 50%;
+        background-color: transparent;
+        background-image: url(../img/right-arrow-circular-button--attribute-as-robin-kylander-from-flaticon-com.png)
+    }
