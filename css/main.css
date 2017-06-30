@@ -23,6 +23,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
     
     .service__header img {
@@ -39,19 +40,19 @@
         line-height: 60px;
         text-transform: uppercase;
     }
+.service__tools{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     
-    .service__tools {
-        height: 250px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
     
-    .service__tools--text {
-        height: 250px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
+}
+.service__tools--text{
+     height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
