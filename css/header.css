@@ -1,5 +1,5 @@
 .header {
-    background-image: url("/img/hero-img.png");
+    background-image: url("../img/hero-img.png");
     width: 1600px;
     height: 900px;
 }
@@ -64,21 +64,25 @@
         font-weight: 700;
         line-height: 60px;
         text-transform: uppercase;
-        padding-top: 215px;
+        padding-top: 198px;
+        text-align: center;
     }
     
     .header__lor {
-        width: 596px;
+        width: 600px;
         height: 50px;
         color: #fffefe;
         font-family: Lato;
-        font-size: 22px;
-        font-weight: 400;
+        font-size: 18px;
+        font-weight: 300;
         line-height: 30px;
+        padding-bottom: 200px;
     }
+.header__lor h3{
+    text-align: center;
+}
     
     .header__btn input{
-/*        padding-top: 636px;*/
         width: 92px;
         height: 92px;
         background-color: #ffffff;
@@ -88,4 +92,3 @@
         background-color: transparent;
         background-image: url(../img/right-arrow-circular-button--attribute-as-robin-kylander-from-flaticon-com.png)
     }
-

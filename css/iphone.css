@@ -1,0 +1,58 @@
+.iphone {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: auto;
+    opacity: 0.85;
+    background-image: url(../img/gray.png);
+    background-color: black;
+}
+
+.iphone__title {
+    width: 60%;
+}
+
+.iphone h2 {
+    width: 560px;
+    height: 39px;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 90px;
+    text-transform: uppercase;
+}
+
+.iphone p {
+    width: 516px;
+    height: 78px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 28px;
+    text-align: left;
+}
+
+.iphone__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iphone__title button {
+    background-color: transparent;
+    border: none;
+}
+
+.iphone__title button a {
+    color: white;
+}
+
+.iphone__ig {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+}
