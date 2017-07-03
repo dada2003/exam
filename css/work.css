@@ -1,0 +1,45 @@
+.work {
+    height: 950px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+}
+
+.work__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work__cubes {
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work__cubes-img:hover {
+    background-color: #000000;
+    opacity: 0.75;
+}
+
+.work__more {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+input {
+    height: 60px;
+    width: 370px;
+    border: 3px solid #222222;
+     font-size: 24px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+

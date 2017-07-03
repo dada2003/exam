@@ -7,9 +7,8 @@
     background-image: url(../img/gray.png);
     background-color: black;
 }
-
-.iphone__title {
-    width: 60%;
+.iphone__emty{
+    width: 10%;
 }
 
 .iphone h2 {
@@ -33,10 +32,11 @@
 }
 
 .iphone__title {
+     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items:flex-start;
 }
 
 .iphone__title button {
