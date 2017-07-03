@@ -1,6 +1,8 @@
     @import 'header.css';
     @import'service.css';
     @import'iphone.css';
+    @import'work.css';
+    @import'footer.css';
     body {
         max-width: 100%;
         max-height: 100%;
@@ -8,8 +10,8 @@
     }
     
     .container {
-        width: 1600px;
-        max-width: 1600px;
+        width: 100%;
+        max-width: 100%;
         margin: 0 auto;
         padding: 0 15px 0 15px;
     }
