@@ -8,10 +8,22 @@
 }
 
 .work__title {
+    height: 200px;
+    width: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+ h2 {
+    height: 26px;
+    color: #222222;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
 }
 
 .work__cubes {
@@ -22,9 +34,9 @@
     align-items: center;
 }
 
-.work__cubes-img:hover {
+.work__cubes img:hover {
     background-color: #000000;
-    opacity: 0.75;
+    opacity: 0.15;
 }
 
 .work__more {
@@ -33,13 +45,12 @@
     align-self: center;
 }
 
-input {
+.work__more input {
     height: 60px;
     width: 370px;
     border: 3px solid #222222;
-     font-size: 24px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 60px;
     text-transform: uppercase;
 }
-

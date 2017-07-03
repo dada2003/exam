@@ -9,7 +9,6 @@
 }
 
 .footer__title {
-    width: 239px;
     height: 26px;
 }
 
@@ -22,7 +21,7 @@
     text-transform: uppercase;
 }
 
-.footer__socials ul {
+.footer__socials--list {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -30,16 +29,18 @@
     align-items: center;
 }
 
-.footer__socials .fa {
+.fa {
     width: 39px;
     height: 39px;
+    font-size: 23px;
     color: #ffffff;
 }
 
 .footer__forms {
+    width: 400px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -50,15 +51,31 @@ input {
 }
 
 .textarea {
-    width: 100%;
+    width: 400px;
+    color: #676767;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
 }
 
 .t {
-    width: 40%;
+    color: #676767;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
 }
 
 .e {
-    width: 40%;
+    color: #676767;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
 }
 
 .fbtn {
@@ -67,4 +84,8 @@ input {
     border: 3px solid #ffffff;
     text-align: center;
     color: white;
+}
+
+.fbtn:hover {
+    background-color: gray;
 }

@@ -28,18 +28,19 @@
 .header__logo {
     display: flex;
     width: 40%;
-    align-self: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding-top: 50px;
-    padding-left: 215px;
 }
 
 .header__menu {
     display: flex;
     width: 60%;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-    padding-top: 57px;
-    padding-right: 385px;
+    padding-top: 50px;
 }
 
 .header__menu1 {
@@ -106,4 +107,9 @@ h1 {
     border-radius: 50%;
     background-color: transparent;
     background-image: url(../img/right-arrow-circular-button--attribute-as-robin-kylander-from-flaticon-com.png)
+}
+
+.header__btn:hover {
+    background-color: lightgrey;
+    border-radius: 50%;
 }
