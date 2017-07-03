@@ -21,7 +21,10 @@
     text-transform: uppercase;
 }
 
+
 .footer__socials--list {
+    width: auto;
+    height: auto;
     list-style: none;
     display: flex;
     flex-direction: row;
